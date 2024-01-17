@@ -12,8 +12,8 @@ MARRIAGE: Marital status (1 = married; 2 = single; 3 = others).
 
 AGE: (year).
 
-PAY_0 - PAY_6: History of past payment. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above. We tracked the past monthly payment records (from April to September, 2005) as follows:
-    PAY_0 = the repayment status in September, 2005;
+PAY_1 - PAY_6: History of past payment. The measurement scale for the repayment status is: -2 = no consumption; -1 = pay duly; 0 = the use of revolving credit; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 9 = payment delay for nine months and above. We tracked the past monthly payment records (from April to September, 2005) as follows:
+    PAY_1 = the repayment status in September, 2005;
     PAY_2 = the repayment status in August, 2005;
     PAY_3 = the repayment status in July, 2005;
     PAY_4 = the repayment status in June, 2005;
@@ -35,3 +35,4 @@ PAY_AMT1 - PAY_AMT6: Amount of previous payment (New Taiwan dollar).
     PAY_AMT4 = amount paid in June, 2005;
     PAY_AMT5 = amount paid in May, 2005;
     PAY_AMT6 = amount paid in April, 2005.
+    
