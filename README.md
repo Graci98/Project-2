@@ -1,6 +1,6 @@
 # Project-2
 
-This research employed a binary variable, "default payment next month" (Yes = 1, No = 0), as the target variable. This study used the following 23 variables as explanatory variables:
+This research employed a binary variable, "DEFAULT" (Yes = 1, No = 0), as the target variable, which designates whether or not the individual defaulted the following month. This study used the following 23 variables as explanatory variables:
 
 LIMIT_BAL: Amount of the given credit (New Taiwan dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 
