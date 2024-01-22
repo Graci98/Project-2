@@ -1,6 +1,6 @@
 # Probability of Credit Card Default
 
-![Credit_Default](Image/credit_default.png)
+![Credit_Default](Images/credit_default.png)
 
 
 ## Overview
@@ -55,10 +55,10 @@
 
 ##### Logistic Regression Model Balanced Accuracy Score: 0.63
 ##### Classification Report
-![Logistic Regression Classification Report](Image/lr_classificaiton_report.png)
+![Logistic Regression Classification Report](Images/lr_classificaiton_report.png)
 
 ##### Confusion Matrix
-![Logistic Regression Confusion Matrix](Image/lr_confusion_matrix.png)
+![Logistic Regression Confusion Matrix](Images/lr_confusion_matrix.png)
 
 ##### Analysis: 
 
@@ -82,10 +82,10 @@
 
 ##### Random Forest Model Balanced Accuracy Score: 0.65
 ##### Classification Report
-![Randon Forest Classification Report](Image/rf_classificaiton_report.png)
+![Randon Forest Classification Report](Images/rf_classificaiton_report.png)
 
 ##### Confusion Matrix
-![Randon Forest Confusion Matrix](Image/rf_confusion_matrix.png)
+![Randon Forest Confusion Matrix](Images/rf_confusion_matrix.png)
 
 ##### Analysis: 
 * Class 0 (Non-default) Predictions:
@@ -108,10 +108,10 @@
 
 ##### Naive Bayes Model Balanced Accuracy Score: 0.69
 ##### Classification Report 
-![Naive Bayes Classification Report](Image/nb_classification_report.png)
+![Naive Bayes Classification Report](Images/nb_classification_report.png)
 
 ##### Confusion Matrix
-![Naive Bayes Confusion Matrix](Image/nb_confusion_matrix.png)
+![Naive Bayes Confusion Matrix](Images/nb_confusion_matrix.png)
 
 ##### Analysis:
 
@@ -135,17 +135,17 @@
 #### Permutation importance reflects how important a feature is for a particular model, it is also model-agnostic; meaning it can be applied to any fitted estimator. In our Project we calculated the permutation feature importance for each model to see which features were the most important to that particular model. 
 
 * 1. Logistic Regression
- ![Logistic Regression Feature Importance](Image/lr_feature_importance.png)
+ ![Logistic Regression Feature Importance](Images/lr_feature_importance.png)
 
 ##### The most important feature is PAY_1 the least important feature is MARRIAGE.
 
 * 2. Random Forest
- ![Random Forest Feature Importance](Image/rf_feature_importance.png)
+ ![Random Forest Feature Importance](Images/rf_feature_importance.png)
 
 ##### The most important feature is PAY_1 the least important feature is PAY_AMT2.
 
 * 3. Naive Bayes
-![Naive Bayes Feature Importance](Image/nb_feature_importance.png)
+![Naive Bayes Feature Importance](Images/nb_feature_importance.png)
 
 ##### The most important feature is PAY_1 the least important feature is LIMIT_BAL.
 
