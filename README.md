@@ -137,17 +137,17 @@
 * 1. Logistic Regression
  ![Logistic Regression Feature Importance](Image/lr_feature_importance.png)
 
-#### The most important feature is PAY_1 the least important feature is MARRIAGE.
+##### The most important feature is PAY_1 the least important feature is MARRIAGE.
 
 * 2. Random Forest
  ![Random Forest Feature Importance](Image/rf_feature_importance.png)
 
-#### The most important feature is PAY_1 the least important feature is PAY_AMT2.
+##### The most important feature is PAY_1 the least important feature is PAY_AMT2.
 
 * 3. Naive Bayes
 ![Naive Bayes Feature Importance](Image/nb_feature_importance.png)
 
-#### The most important feature is PAY_1 the least important feature is LIMIT_BAL.
+##### The most important feature is PAY_1 the least important feature is LIMIT_BAL.
 
 ## Resources:
 
