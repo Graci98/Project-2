@@ -132,7 +132,16 @@
 
 
 ### Step 4: Feature Importance Analysis: 
+#### Permutation importance reflects how important a feature is for a particular model, it is also model-agnostic; meaning it can be applied to any fitted estimator. In our Project we calculated the permutation feature importance for each model to see which features were the most important to that particular model. 
 
+* 1. Logistic Regression
+ ![Logistic Regression Feature Importance](Image/lr_feature_importance.png)
+     
+* 2. Random Forest
+ ![Random Forest Feature Importance](Image/rf_feature_importance.png)
+     
+* 3. Naive Bayes
+![Naive Bayes Feature Importance](Image/nb_feature_importance.png)
 
 ## Resources:
 
