@@ -1,6 +1,6 @@
 # Probability of Credit Card Default
 
-![Credit Default](Image/credit_default.png)
+![Credit_Default](Image/credit_default.png)
 
 
 ## Overview
