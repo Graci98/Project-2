@@ -4,14 +4,14 @@
 
 
 ## Overview
-### This project will develop models that predict the probability of credit card default. We will use a dataset that consists of information for 30,000 customers, including whether they ended up defaulting the next month. We will perform exploratory data analysis to derive any important insights from the data that should improve the effectiveness of the models. After the models are developed, we’ll compare their performances and determine which has the most sufficient predictive power.
+#### This project will develop models that predict the probability of credit card default. We will use a dataset that consists of information for 30,000 customers, including whether they ended up defaulting the next month. We will perform exploratory data analysis to derive any important insights from the data that should improve the effectiveness of the models. After the models are developed, we’ll compare their performances and determine which has the most sufficient predictive power.
 
 ## Getting Started: 
 
 
-#### 1. Import the required libraries and read in and clean the dataset:
+#### Step 1. Import the required libraries and read in and clean the dataset:
 
-###### Libraries imported; pandas, pathlib, numpy, matplotlib.pylot, seaborn, sklearn, statsmodel.stats.outliers_influence, statsmodel.api, and scipy. Then we read and cleaned the CSV file "default_credit_card_client" by checking for null values. Also adjusted some of the categories for a cleaner data set. 
+###### Libraries imported; pandas, pathlib, numpy, matplotlib.pylot, seaborn, sklearn, statsmodel.stats.outliers_influence, statsmodel.api, and scipy. Then we read and cleaned the CSV file `default_credit_card_client` by checking for null values. Also adjusted some of the categories for a cleaner data set. 
 
 ###### MARRIAGE Variable:
 * Original Categories: 1 = married; 2 = single; 3 = others
@@ -66,21 +66,16 @@
 
   
 
-### Exploratory Data Analysis
+### Step 2: Exploratory Data Analysis
 
-###### We did some Exploratory Data Analysis (EDA) in our project to identify patterns, trends, and correlations in the dataset. First we separated the data into target and feature variables so we can examine the distribution of each variable. One part of Exploratory data anaylsis is Multivariate analysis where you analyze and interpret interactions between three or more variables in a dataset, which we saw high correlation between the varialbes BILL_AMT1 - BILL_AMT6. We delved in deeper and perfomerd a Bivariate analysis which is where two variables are examined simultaneously in order to look for patterns. The overall correlation matrix shows that these features are strongly correlated. 
-
-
-
-### Pre-Processing
+###### We did some Exploratory Data Analysis (EDA) in our project to identify patterns, trends, and correlations in the dataset. First we separated the data into target and feature variables so we can examine the distribution of each variable. One part of Exploratory data anaylsis is Multivariate analysis where you analyze and interpret interactions between three or more variables in a dataset, which we saw high correlation between the varialbes BILL_AMT1 - BILL_AMT6. We delved in deeper and perfomerd a Bivariate analysis which is where two variables are examined simultaneously in order to look for patterns. After calculating the Variance Inflation Factor(VIF) we noticed that AVG_BILL_AMT1 - AVG_BILL AMT6 had high multicollinearity since their IVF numbers were way above 10 and the overall correlation matrix shows that these features are strongly correlated. Since we determined that there was some strong multicollinearity between the six 'BILL_AMT' features, we will preprocess the DataFrame for our model by calculating the average of these six columns and replace the six columns with a single 'AVG_BILL_AMT' column. Once this is done we will split the data into training and testing sets and standardize them.
 
 
-
-## Develop machine learning models to fit the data:
+### Step 3: Develop machine learning models to fit the data:
 
 #### Trained and tested three models Logistic regression, Random Forest, and Naive Bayes. 
  
-### 1. Logistic Regression Result:
+#### 1. Logistic Regression Result:
 
 ##### Logistic Regression Model Balanced Accuracy Score: 0.63
 ##### Classification Report
@@ -107,7 +102,7 @@
 * Weighted Average F1-Score : 84% (Weighted average considering class imbalance).
 
 
-### 2. Random Forest Results:
+#### 2. Random Forest Results:
 
 ##### Random Forest Model Balanced Accuracy Score: 0.65
 ##### Classification Report
@@ -133,7 +128,7 @@
 * Weighted Average F1-Score: 79% (Weighted average considering class imbalance
 
 
-### 3. Naive Bayes Results: 
+#### 3. Naive Bayes Results: 
 
 ##### Naive Bayes Model Balanced Accuracy Score: 0.69
 ##### Classification Report 
@@ -160,7 +155,7 @@
 * Weighted Average F1-Score: 77% (Weighted average considering class imbalance).
 
 
-### Feature Importance Analysis: 
+### Step 4: Feature Importance Analysis: 
 
 ## Resources:
 
