@@ -90,20 +90,21 @@
 ![Logistic Regression Confusion Matrix](Image/lr_confusion_matrix.png)
 
 ##### Analysis: 
+
 ##### Class 0 (Non-default) Predictions:
-##### Precision: 96% (High accuracy in predicting non-default cases).
-##### Recall: 83% (Effective identification of actual non-default instances).
-##### F1-Score: 89% (Overall performance for non-default class).
+* Precision: 96% (High accuracy in predicting non-default cases).
+* Recall: 83% (Effective identification of actual non-default instances).
+* F1-Score: 89% (Overall performance for non-default class).
 
 ##### Class 1 (Default) Predictions:
-##### Precision: 31% (Lower precision in predicting default cases).
-##### Recall: 68% (Moderate ability to capture actual default instances).
-##### F1-Score: 43% (Trade-off between precision and recall for default class).
+* Precision: 31% (Lower precision in predicting default cases).
+* Recall: 68% (Moderate ability to capture actual default instances).
+* F1-Score: 43% (Trade-off between precision and recall for default class).
 
 ##### Overall Performance:
-##### Accuracy: 81% (Overall correctness of predictions).
-##### Macro Average F1-Score : 66% (Unweighted average of class-specific F1-Scores).
-##### Weighted Average F1-Score : 84% (Weighted average considering class imbalance).
+* Accuracy: 81% (Overall correctness of predictions).
+* Macro Average F1-Score : 66% (Unweighted average of class-specific F1-Scores).
+* Weighted Average F1-Score : 84% (Weighted average considering class imbalance).
 
 
 ### 2. Random Forest Results:
@@ -116,20 +117,20 @@
 ![Randon Forest Confusion Matrix](Image/rf_confusion_matrix.png)
 
 ##### Analysis: 
-##### Class 0 (Non-default) Predictions:
-##### Precision: 84% (High precision in predicting non-default cases).
-##### Recall: 94% (High ability to identify actual non-default instances).
-##### F1-Score: 89% (Overall strong performance for non-default class).
+* Class 0 (Non-default) Predictions:
+* Precision: 84% (High precision in predicting non-default cases).
+* Recall: 94% (High ability to identify actual non-default instances).
+* F1-Score: 89% (Overall strong performance for non-default class).
 
 ##### Class 1 (Default) Predictions:
-##### Precision: 64% (Moderate precision in predicting default cases).
-##### Recall: 36% (Limited ability to capture actual default instances).
-##### F1-Score: 46% (Moderate overall performance for default class).
+* Precision: Precision: 64% (Moderate precision in predicting default cases).
+* Recall: 36% (Limited ability to capture actual default instances).
+* F1-Score: 46% (Moderate overall performance for default class).
 
 ##### Overall Performance:
-##### Accuracy: 81% (Overall correctness of predictions).
-##### Macro Average F1-Score: 67% (Unweighted average of class-specific F1-Scores).
-##### Weighted Average F1-Score: 79% (Weighted average considering class imbalance
+* Accuracy: 81% (Overall correctness of predictions).
+* Macro Average F1-Score: 67% (Unweighted average of class-specific F1-Scores).
+* Weighted Average F1-Score: 79% (Weighted average considering class imbalance
 
 
 ### 3. Naive Bayes Results: 
@@ -144,19 +145,19 @@
 ##### Analysis:
 
 ##### Class 0 (Non-default) Predictions:
-##### Precision: 86% (High precision in predicting non-default cases).
-##### Recall: 83% (Good ability to identify actual non-default instances).
-##### F1-Score: 85% (Overall strong performance for non-default class).
+* Precision: 86% (High precision in predicting non-default cases).
+* Recall: 83% (Good ability to identify actual non-default instances).
+* F1-Score: 85% (Overall strong performance for non-default class).
 
 ##### Class 1 (Default) Predictions:
-##### Precision: 48% (Moderate precision in predicting default cases).
-##### Recall: 55% (Moderate ability to capture actual default instances).
-##### F1-Score: 51% (Moderate overall performance for default class).
+* Precision: 48% (Moderate precision in predicting default cases).
+* Recall: 55% (Moderate ability to capture actual default instances).
+* F1-Score: 51% (Moderate overall performance for default class).
 
 ##### Overall Performance:
-##### Accuracy: 77% (Overall correctness of predictions).
-##### Macro Average F1-Score: 68% (Unweighted average of class-specific F1-Scores).
-##### Weighted Average F1-Score: 77% (Weighted average considering class imbalance).
+* Accuracy: 77% (Overall correctness of predictions).
+* Macro Average F1-Score: 68% (Unweighted average of class-specific F1-Scores).
+* Weighted Average F1-Score: 77% (Weighted average considering class imbalance).
 
 
 ### Feature Importance Analysis: 
