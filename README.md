@@ -55,7 +55,7 @@
 
 ##### Logistic Regression Model Balanced Accuracy Score: 0.63
 ##### Classification Report
-![Logistic Regression Classification Report](Images/lr_classification_report.png)
+![Logistic Regression Classification Report](Images/LR_classification_report.png)
 
 ##### Confusion Matrix
 ![Logistic Regression Confusion Matrix](Images/lr_confusion_matrix.png)
@@ -82,7 +82,7 @@
 
 ##### Random Forest Model Balanced Accuracy Score: 0.65
 ##### Classification Report
-![Randon Forest Classification Report](Images/rf_classification_report.png)
+![Randon Forest Classification Report](Images/RF_classification_report.png)
 
 ##### Confusion Matrix
 ![Randon Forest Confusion Matrix](Images/rf_confusion_matrix.png)
@@ -109,7 +109,7 @@
 
 ##### Naive Bayes Model Balanced Accuracy Score: 0.69
 ##### Classification Report 
-![Naive Bayes Classification Report](Images/nb_classification_report.png)
+![Naive Bayes Classification Report](Images/NB_classification_report.png)
 
 ##### Confusion Matrix
 ![Naive Bayes Confusion Matrix](Images/nb_confusion_matrix.png)
