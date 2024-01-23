@@ -60,7 +60,7 @@
 ##### Confusion Matrix
 ![Logistic Regression Confusion Matrix](Images/lr_confusion_matrix.png)
 
-##### Analysis: 
+##### Logistic Regression Analysis: 
 
 ##### Class 0 (Non-default) Predictions:
 * Precision: 96% (High accuracy in predicting non-default cases).
@@ -87,8 +87,9 @@
 ##### Confusion Matrix
 ![Randon Forest Confusion Matrix](Images/rf_confusion_matrix.png)
 
-##### Analysis: 
-* Class 0 (Non-default) Predictions:
+##### Random Forest Analysis:
+
+##### Class 0 (Non-default) Predictions:
 * Precision: 84% (High precision in predicting non-default cases).
 * Recall: 94% (High ability to identify actual non-default instances).
 * F1-Score: 89% (Overall strong performance for non-default class).
@@ -113,7 +114,7 @@
 ##### Confusion Matrix
 ![Naive Bayes Confusion Matrix](Images/nb_confusion_matrix.png)
 
-##### Analysis:
+##### Naive Bayes Analysis:
 
 ##### Class 0 (Non-default) Predictions:
 * Precision: 86% (High precision in predicting non-default cases).
