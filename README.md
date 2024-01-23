@@ -162,9 +162,9 @@
 
 #### Given the project's goal of minimizing False Negatives, where false negatives are considered the most undesirable outcome, prioritizing high recall becomes crucial. Upon examining the classification reports for each model, it is observed that the logistic regression model exhibits the highest recall among the three models.
 
-#### Therefore, based on the emphasis on minimizing false negatives and prioritizing recall, the logistic regression model appears to be the most suitable for the project.
+#### Therefore, based on the emphasis on minimizing false negatives and prioritizing recall, the logistic regression model appears to be the most suitable model for predicting clients who will not default.
 
-#### 
+
 
 ## Resources:
 
